@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=Inter:wght@600&display=swap");
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 96px;
+  margin-bottom: 0%;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 5rem;
+  line-height: 96px;
+  color: rgb(143, 137, 137);
+  margin-top: 0%;
+}
+
+p {
+  font-family: "IBM Plex Mono", monospace;
+}
