@@ -1,17 +1,19 @@
 import React from "react";
-import { Container, Box, Grid } from "@material-ui/core/";
+import { Container, Box, Grid, Button } from "@material-ui/core/";
+import Spinner from "./monkey.gif";
 import "./AboutMe.css";
-import Photo from "./circle-cropped.png";
+import SocialIcons from './SocialIcons'
+import { FcNext } from "react-icons/fc";
 
 const AboutMe = () => {
   return (
     <Container>
       <Grid container>
-        <h1>Hola, Soy Javier</h1>
-        <h2>Desarrollador Web Full Stack </h2>
+        <h1 className="homeTitle">desarrollador web.</h1>
+        <h2 className="homesubtitle" style={{paddingBottom:0}} >FrontEnd - BackEnd - Diseño </h2>
 
-        <Grid xs={5}>
-          <p>
+        <Grid xs={5} >
+          <p style={{marginTop:50, fontSize:18}}>
             Desarrollador Full Stack con manejo en lenguajes de Front end
             (Javascript y React JS) y de Backend (Ruby On Rails). Al mismo
             tiempo, tengo experiencia trabajando en programas de diseño
@@ -23,10 +25,17 @@ const AboutMe = () => {
         </Grid>
         <Grid xs={5}>
           <Box display="flex" justifyContent="center">
-            <img src={Photo} width="300" alt="Profile"/>
+            <img src={Spinner} width="300" style={{marginLeft:'3rem'}} alt="Spinner"/>
+          </Box>
+        </Grid>
+        <Grid xs={2}>
+          <Box display="flex" justifyContent="center">
+            <FcNext style={{fontSize:'7rem'}} />
           </Box>
         </Grid>
       </Grid>
+
+      <SocialIcons />
     </Container>
   );
 };

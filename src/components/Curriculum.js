@@ -1,47 +1,35 @@
-import React from "react";
-import { Container, Grid, Typography } from "@material-ui/core/";
+import React, { useState } from "react";
+import { Container, Grid } from "@material-ui/core/";
+import Icons from "./Icons";
+import Timeline from "./Timeline";
+import PortfolioPaper from "./PortfolioPaper";
+import Datos from "./Datos";
 
 const Curriculum = () => {
+  const [info, setInfo] = useState("0");
+
+  const getInfo = (infoReceived) => {
+    setInfo(infoReceived);
+    console.log(info);
+  };
+
   return (
     <Container>
-      <Grid container>
-        <Grid item sm={4}>
-          <h3 align={"center"}>Experiencia</h3>
-          <p>
-            Cras in sem pharetra, fermentum justo pharetra, cursus tellus. Sed
-            varius augue libero, eget mollis tellus lacinia vel. 
-          </p>
-        </Grid>
-        <Grid item sm={4}>
-          <h3 align={"center"}>Educacion</h3>
-          <p>
-            Cras in sem pharetra, fermentum justo pharetra, cursus tellus. Sed
-            varius augue libero, eget mollis tellus lacinia vel. 
-          </p>
-        </Grid>
-        <Grid item sm={4}>
-          <h3 align={"center"}>Skills</h3>
-          <p>
-            Cras in sem pharetra, fermentum justo pharetra, cursus tellus. Sed
-            varius augue libero, eget mollis tellus lacinia vel. 
-          </p>
-        </Grid>
+      <Grid container spacing={10}>
         <Grid item sm={6} mt={6}>
-          <h3 align={"center"}>Experiencia</h3>
-          <p>
-            Cras in sem pharetra, fermentum justo pharetra, cursus tellus. Sed
-            varius augue libero, eget mollis tellus lacinia vel. 
-          </p>
+          <h3 className="cvTitle" align={"center"}>
+            Educacion
+          </h3>
+          <Timeline onGetInfo={getInfo} />
         </Grid>
         <Grid item sm={6}>
-          <h3 align={"center"}>Educacion</h3>
-          <p>
-            Cras in sem pharetra, fermentum justo pharetra, cursus tellus. Sed
-            varius augue libero, eget mollis tellus lacinia vel. 
-          </p>
+          {/* <h3 className="cvTitle" align={"center"} >
+            Habilidades 
+          </h3> */}
+          {/* <Icons onGetInfo={getInfo} /> */}
         </Grid>
-        
       </Grid>
+          <PortfolioPaper info={info} style={{ marginTop: 50 }} />
     </Container>
   );
 };
