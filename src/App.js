@@ -1,9 +1,8 @@
 import React, { Fragment, useState, useEffect } from "react";
 import "./App.css";
 import HomeContainer from "./components/HomeContainer";
-import Spinner from "./components/807.gif";
+import Spinner from "./components/img/807.gif";
 import { Box } from "@material-ui/core/";
-import AboutMe from './components/AboutMe'
 
 function App() {
   const [display, setDisplay] = useState(false);

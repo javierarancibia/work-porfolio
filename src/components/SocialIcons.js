@@ -1,12 +1,17 @@
 import { Container, Box, Grid } from "@material-ui/core";
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaStackOverflow } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
+AOS.init();
+
 
 const SocialIcons = () => {
   return (
-    <Container>
+    <Container style={{marginTop: '2rem'}} data-aos="fade-up" data-aos-duration="1500">
       <Grid container xs={8}>
-        <Grid item>
+        <Grid item >
           <Box mr={8}>
             <a
               class="social-icon"
@@ -15,7 +20,7 @@ const SocialIcons = () => {
               rel="noopener"
               aria-label="Github"
             >
-              <FaLinkedinIn style={{ fontSize: 30, color:'black' }} />
+              <FaLinkedinIn style={{ fontSize: 30, color:'DodgerBlue' }} />
             </a>
           </Box>
         </Grid>
@@ -28,7 +33,7 @@ const SocialIcons = () => {
               rel="noopener"
               aria-label="Github"
             >
-              <FaGithub style={{ fontSize: 30, color:'black' }} />
+              <FaGithub style={{ fontSize: 30, color:'DodgerBlue' }} />
             </a>
           </Grid>
         </Box>

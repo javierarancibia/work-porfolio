@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=Inter:wght@600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 
 .homeTitle {
   font-family: "ProximaNova", sans-serif;
@@ -21,9 +21,8 @@
   margin-top: 0%;
 }
 
-
 .cvTitle {
-  font-family: 'ProximaNova';
+  font-family: "ProximaNova";
   font-style: normal;
   font-weight: bolder;
   font-size: 2rem;
@@ -37,21 +36,32 @@ p {
   font-family: "ProximaNova", monospace;
   font-size: 1rem;
   word-spacing: 8px;
+  font-weight: 100;
+  /* color: white; */
 }
 
 @font-face {
-  font-family: 'ProximaNova';
+  font-family: "ProximaNova";
   src: url("./FontsFree-Net-Proxima-Nova-Light.otf") format("opentype");
 }
 
 .optionNumbers {
-  font-family: 'Black Ops One';
+  font-family: "Black Ops One";
   font-size: 2rem;
 }
 
-.optionNames{
-  font-family: 'Black Ops One';
+.optionNames {
+  font-family: "Black Ops One";
   font-size: 1rem;
   transform: rotate(-90deg);
   display: flex;
 }
+
+.monkeyAstronaut {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+/* body {
+  background-color: #0a192f
+} */

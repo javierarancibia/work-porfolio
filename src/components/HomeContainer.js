@@ -1,10 +1,13 @@
 import React, { Fragment, useState } from "react";
 import Home from "./Home";
-import CurriculumComponent from "./CurriculumComponent";
 import AboutMe from "./AboutMe";
+import PortfolioPaper from "./PortfolioPaper";
+import CurriculumPaper from "./CurriculumPaper";
+import PersonalPaper from "./PersonalPaper";
+import { Container } from "@material-ui/core/";
 
 const HomeContainer = () => {
-  const [Ui, setUi] = useState("0");
+  const [Ui, setUi] = useState("1");
 
   const obtainUi = (currentUi) => {
     setUi(currentUi);
@@ -13,9 +16,12 @@ const HomeContainer = () => {
   return (
     <Fragment>
       <Home onGetUi={obtainUi} />
-      {Ui === "0" && <AboutMe />}
-      {Ui === "1" && <AboutMe />}
-      {Ui === "2" && <CurriculumComponent />}
+      <Container>
+        {Ui === "1" && <AboutMe onGetUi={obtainUi} />}
+        {Ui === "2" && <PortfolioPaper onGetUi={obtainUi} />}
+        {Ui === "3" && <CurriculumPaper onGetUi={obtainUi} />}
+        {Ui === "4" && <PersonalPaper onGetUi={obtainUi} />}
+      </Container>
     </Fragment>
   );
 };

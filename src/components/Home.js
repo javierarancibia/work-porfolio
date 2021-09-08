@@ -5,11 +5,15 @@ import Toolbar from "@material-ui/core/Toolbar";
 import { Button, IconButton, Typography, Container } from "@material-ui/core";
 import { FaLightbulb } from "react-icons/fa";
 import { GiMonkey } from "react-icons/gi";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    
+    textTransform: "lowercase",
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -28,8 +32,18 @@ const Home = (props) => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static" style={{backgroundColor: 'black', lineHeight: 5}} >
+    <div
+      className={classes.root}
+      data-aos="fade-down"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+    >
+      <AppBar
+        position="static"
+        style={{ backgroundColor: "black", lineHeight: 5 }}
+      >
         <Container>
           <Toolbar>
             <IconButton
@@ -38,34 +52,56 @@ const Home = (props) => {
               aria-label="menu"
             ></IconButton>
             <Typography variant="h6" className={classes.title}>
-              <GiMonkey style={{fontSize:60}} />
+              <GiMonkey style={{ fontSize: 60 }} />
             </Typography>
             <Button
-              style={{ marginRight: "1rem", color: "white", fontFamily: "ProximaNova"}}
+              style={{
+                marginRight: "1rem",
+                color: "white",
+                fontFamily: "ProximaNova",
+              }}
               onClick={handleUi}
               value="1"
             >
-              Acerca de mi
+              home
             </Button>
             <span>|</span>
             <Button
               style={{
                 marginRight: "1rem",
                 marginLeft: "1rem",
-                color: "white", fontFamily: "ProximaNova"
+                color: "white",
+                fontFamily: "ProximaNova",
               }}
               onClick={handleUi}
               value="2"
             >
-              CV / Resume
+              portfolio
             </Button>
             <span>|</span>
             <Button
-              style={{ marginLeft: "1rem", color: "white", fontFamily: "ProximaNova" }}
+              style={{
+                marginRight: "1rem",
+                marginLeft: "1rem",
+                color: "white",
+                fontFamily: "ProximaNova",
+              }}
               onClick={handleUi}
               value="3"
             >
-              Contacto
+              educacion
+            </Button>
+            <span>|</span>
+            <Button
+              style={{
+                marginLeft: "1rem",
+                color: "white",
+                fontFamily: "ProximaNova",
+              }}
+              onClick={handleUi}
+              value="4"
+            >
+              acerca de mi
             </Button>
             <Button style={{ marginLeft: "1rem" }} onClick={handleUi} value="3">
               <FaLightbulb style={{ fontSize: 20 }} />
