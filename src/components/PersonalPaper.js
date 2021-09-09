@@ -185,6 +185,7 @@ const PersonalPaper = (props) => {
             data-aos-easing="ease-in-out"
           />
       </Grid>
+     
     </div>
   );
 };

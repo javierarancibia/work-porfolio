@@ -9,7 +9,7 @@ AOS.init();
 
 const SocialIcons = () => {
   return (
-    <Container style={{marginTop: '2rem'}} data-aos="fade-up" data-aos-duration="1500">
+    <Container style={{marginTop: '2rem'}} data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
       <Grid container xs={8}>
         <Grid item >
           <Box mr={8}>

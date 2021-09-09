@@ -60,18 +60,20 @@ const PortfolioComponent = () => {
         name: "Calculadora UF",
         sub: "Conversor de UF-CLP",
         desc: "Conversor de valores a la UF actual y viceversa, consumiendo una API publica con valor de la UF diaria",
-        tech: "#ReactJS, #React-Bootstrap, #Javascript #Bootstrap",
+        tech: "#ReactJS, #React-Bootstrap, #Javascript",
         link: "https://javierarancibia.github.io/react-ufcalculator/",
         img: "https://user-images.githubusercontent.com/69688629/131714834-2ae475a4-c31d-49ba-bb93-bf6127480c09.png",
       },
     {
       name: "Portafolio Web",
-      sub: "Book de trabajo dinamico en ReactJS",
+      sub: "Book de trabajos dinamico",
       desc: "App para mostrar de manera dinamica mis proyectos y experiencia en el desarrollo web",
       tech: "#ReactJS, #MaterialUI",
+      img: 'https://user-images.githubusercontent.com/69688629/132593097-cd76b71d-eb06-4ccb-b095-f1c31b42abff.jpeg'
     },
     {
       name: "Galeria Digital",
+      sub: 'Maqueta de Ecommerce con React',
       desc: "Proyecto de Ecommerce dedicado a la venta de arte de autor, desarrollado en ReactJS para Coderhouse. ",
       tech: "#ReactJS, #Bootstrap",
       img: "https://user-images.githubusercontent.com/69688629/121763813-e069ac80-cb0c-11eb-98e9-314b56464205.gif",
@@ -83,6 +85,11 @@ const PortfolioComponent = () => {
       img: "https://user-images.githubusercontent.com/69688629/132099492-0f5d016c-cb28-4dac-b406-7ace62282bcd.png",
       link: "https://javierarancibia.github.io/coding-bros/",
     },
+    {
+      name: "...actualmente programando",
+      desc: "...siempre programando",
+      img: "https://media3.giphy.com/media/y5gCdhnsGnKRh20TnE/giphy.gif?cid=790b761107ddfd218677db6570dd5a6db0eb9bbf68d779f6&rid=giphy.gif&ct=g",
+    }
   ];
 
   return (

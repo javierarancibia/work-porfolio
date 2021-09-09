@@ -16,7 +16,7 @@ const AboutMe = (props) => {
   };
   return (
     <Container>
-      <Grid container>
+      <Grid container >
         <h1
           className="homeTitle"
           data-aos="fade-right"
@@ -33,13 +33,18 @@ const AboutMe = (props) => {
           data-aos-delay="50"
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
+          style={{
+            margin: 0,
+            paddingBottom: 20,
+            // boxShadow: "0px 15px 10px -15px  gray",
+          }}
         >
           FrontEnd - BackEnd - Diseño{" "}
         </h2>
 
         <Grid xs={5}>
           <p
-            style={{ marginTop: 20, fontSize: 25 }}
+            style={{ marginTop: 50, fontSize: 25 }}
             data-aos="fade-right"
             data-aos-delay="50"
             data-aos-duration="2000"
@@ -69,7 +74,7 @@ const AboutMe = (props) => {
             <img
               src={Spinner}
               width="320"
-              style={{ marginLeft: "3rem", borderRadius: 25 }}
+              style={{ marginLeft: "3rem", marginTop: "3rem", borderRadius: 25 }}
               alt="Spinner"
             />
           </Box>
@@ -88,9 +93,8 @@ const AboutMe = (props) => {
             </Button>
           </Box>
         </Grid>
-      <SocialIcons />
+        <SocialIcons />
       </Grid>
-
     </Container>
   );
 };

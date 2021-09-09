@@ -4,6 +4,7 @@ import { Paper, Grid, Link, Button } from "@material-ui/core";
 import { FaAngleRight } from "react-icons/fa";
 import Monkey from "./img/monkeyastronaut.png";
 import { FcNext, FcPrevious } from "react-icons/fc";
+import EducationGrid from "./EducationGrid"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -88,8 +89,8 @@ const CurriculumPaper = (props) => {
           <FcNext style={{ fontSize: "6rem" }} />
         </Button>
       </Grid>
-      <Grid container xs={6}>
-        <Paper
+      {/* <Grid container xs={6}> */}
+        {/* <Paper
           elevation={0}
           data-aos="fade-right"
           data-aos-offset="200"
@@ -179,10 +180,10 @@ const CurriculumPaper = (props) => {
                 style={{ fontSize: 25, color: "black", marginLeft: "1rem" }}
               />
             </Link>
-          </ul>
-        </Paper>
-      </Grid>
-      <Grid xs={3}>
+          </ul> */}
+        {/* </Paper> */}
+      {/* </Grid> */}
+      {/* <Grid xs={3}>
           <img
             src={Monkey}
             width="450"
@@ -195,7 +196,8 @@ const CurriculumPaper = (props) => {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
           />
-      </Grid>
+      </Grid> */}
+      <EducationGrid />
     </div>
   );
 };
