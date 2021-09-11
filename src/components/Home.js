@@ -101,7 +101,7 @@ const Home = (props) => {
               onClick={handleUi}
               value="4"
             >
-              acerca de mi
+              Contacto
             </Button>
             <Button style={{ marginLeft: "1rem" }} onClick={handleUi} value="3">
               <FaLightbulb style={{ fontSize: 20 }} />

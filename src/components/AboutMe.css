@@ -9,6 +9,7 @@
   line-height: 96px;
   margin-bottom: 0%;
   letter-spacing: -8px;
+  z-index: 1;
 }
 
 .homesubtitle {
@@ -65,3 +66,19 @@ p {
 /* body {
   background-color: #0a192f
 } */
+
+.blink {
+  color: dodgerblue;
+  animation: blink-animation 1.5s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}

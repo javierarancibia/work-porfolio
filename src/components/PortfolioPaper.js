@@ -41,7 +41,7 @@ const PortfolioPaper = (props) => {
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
         >
-          workPortfolio.
+          workPortfolio<span className="blink">_</span>
         </h1>
         <h2
           style={{

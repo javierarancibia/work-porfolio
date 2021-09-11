@@ -8,14 +8,14 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 AOS.init();
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: '100%',
+    maxWidth: "100%",
     borderRadius: 25,
     width: 550,
   },
@@ -26,7 +26,7 @@ var settings = {
   infinite: true,
   speed: 500,
   slidesToShow: 1,
-  slidesToScroll: 1
+  slidesToScroll: 1,
 };
 
 const PortfolioComponent = () => {
@@ -56,24 +56,25 @@ const PortfolioComponent = () => {
       link: "https://sleepy-ravine-23803.herokuapp.com/",
       img: "https://user-images.githubusercontent.com/69688629/131715284-65d40697-e6de-4ba4-9a5c-b4e06d072302.png",
     },
-      {
-        name: "Calculadora UF",
-        sub: "Conversor de UF-CLP",
-        desc: "Conversor de valores a la UF actual y viceversa, consumiendo una API publica con valor de la UF diaria",
-        tech: "#ReactJS, #React-Bootstrap, #Javascript",
-        link: "https://javierarancibia.github.io/react-ufcalculator/",
-        img: "https://user-images.githubusercontent.com/69688629/131714834-2ae475a4-c31d-49ba-bb93-bf6127480c09.png",
-      },
+    {
+      name: "Calculadora UF",
+      sub: "Conversor de UF-CLP",
+      desc: "Conversor de valores a la UF actual y viceversa, consumiendo una API publica con valor de la UF diaria",
+      tech: "#ReactJS, #React-Bootstrap, #Javascript",
+      link: "https://javierarancibia.github.io/react-ufcalculator/",
+      img: "https://user-images.githubusercontent.com/69688629/131714834-2ae475a4-c31d-49ba-bb93-bf6127480c09.png",
+    },
     {
       name: "Portafolio Web",
       sub: "Book de trabajos dinamico",
       desc: "App para mostrar de manera dinamica mis proyectos y experiencia en el desarrollo web",
       tech: "#ReactJS, #MaterialUI",
-      img: 'https://user-images.githubusercontent.com/69688629/132593097-cd76b71d-eb06-4ccb-b095-f1c31b42abff.jpeg'
+      img: "https://user-images.githubusercontent.com/69688629/132593097-cd76b71d-eb06-4ccb-b095-f1c31b42abff.jpeg",
+      link: "https://javierarancibia.github.io/work-porfolio/",
     },
     {
       name: "Galeria Digital",
-      sub: 'Maqueta de Ecommerce con React',
+      sub: "Maqueta de Ecommerce con React",
       desc: "Proyecto de Ecommerce dedicado a la venta de arte de autor, desarrollado en ReactJS para Coderhouse. ",
       tech: "#ReactJS, #Bootstrap",
       img: "https://user-images.githubusercontent.com/69688629/121763813-e069ac80-cb0c-11eb-98e9-314b56464205.gif",
@@ -89,69 +90,84 @@ const PortfolioComponent = () => {
       name: "...actualmente programando",
       desc: "...siempre programando",
       img: "https://media3.giphy.com/media/y5gCdhnsGnKRh20TnE/giphy.gif?cid=790b761107ddfd218677db6570dd5a6db0eb9bbf68d779f6&rid=giphy.gif&ct=g",
-    }
+    },
   ];
 
   return (
-      <Grid container spacing={9} style={{width: '75rem', marginTop:40}} data-aos="fade-down" data-aos-offset="50" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out">
-        {items.map((eachItem, i) => (
-          <Grid item xs={4}>
-            <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  component="img"
-                  alt={eachItem.name}
-                  height="200"
-                  image={eachItem.img}
-                  title={eachItem.name}
-                />
-                <CardContent data-aos="fade-right" data-aos-offset="50" data-aos-delay="50" data-aos-duration="1500" data-aos-once="once">
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="h2"
-                    style={{
-                      fontFamily: "ProximaNova",
-                      fontWeight: "bold",
-                      color: "black",
-                    }}
-                  >
-                    {eachItem.name}
-                  </Typography>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="h2"
-                    style={{
-                      fontFamily: "ProximaNova",
-                      fontWeight: "bold",
-                      fontSize: "1.2rem",
-                    }}
-                  >
-                    {eachItem.sub}
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    color="textSecondary"
-                    component="p"
-                    style={{ fontFamily: "ProximaNova" }}
-                  >
-                    {eachItem.desc}
-                  </Typography>
-                  <p>{eachItem.tech}</p>
-                </CardContent>
-              </CardActionArea>
-              <CardActions>
-                <Button color="primary">
-                  <a href={eachItem.link} target="blank">
-                    Link
-                  </a>
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
+    <Grid
+      container
+      spacing={9}
+      style={{ width: "75rem", marginTop: 40 }}
+      data-aos="fade-down"
+      data-aos-offset="50"
+      data-aos-delay="50"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+    >
+      {items.map((eachItem, i) => (
+        <Grid item xs={4}>
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt={eachItem.name}
+                height="200"
+                image={eachItem.img}
+                title={eachItem.name}
+              />
+              <CardContent
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-delay="50"
+                data-aos-duration="1500"
+                data-aos-once="once"
+              >
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="h2"
+                  style={{
+                    fontFamily: "ProximaNova",
+                    fontWeight: "bold",
+                    color: "black",
+                  }}
+                >
+                  {eachItem.name}
+                </Typography>
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="h2"
+                  style={{
+                    fontFamily: "ProximaNova",
+                    fontWeight: "bold",
+                    fontSize: "1.2rem",
+                  }}
+                >
+                  {eachItem.sub}
+                </Typography>
+                <Typography
+                  variant="body2"
+                  color="textSecondary"
+                  component="p"
+                  style={{ fontFamily: "ProximaNova" }}
+                >
+                  {eachItem.desc}
+                </Typography>
+                <p>{eachItem.tech}</p>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button color="primary">
+                <a href={eachItem.link} target="blank">
+                  Link
+                </a>
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+      ))}
+    </Grid>
   );
 };
 

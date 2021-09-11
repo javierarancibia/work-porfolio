@@ -23,8 +23,9 @@ const AboutMe = (props) => {
           data-aos-delay="50"
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
+          style={{backgroundColor: 'DodgerBlue', padding:0, marginRight:25}}
         >
-          desarrollador web.
+          desarrollador web<span className="blink">_</span>
         </h1>
         <h2
           className="homesubtitle"

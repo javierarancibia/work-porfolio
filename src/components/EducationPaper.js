@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const CurriculumPaper = (props) => {
+const EducationPaper = (props) => {
   const [item, setItem] = useState("photo");
   const handleUi = (e) => {
     e.preventDefault();
@@ -49,7 +49,7 @@ const CurriculumPaper = (props) => {
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
         >
-          educacion.
+          educacion<span className="blink">_</span>
         </h1>
         <h2
           style={{
@@ -202,4 +202,4 @@ const CurriculumPaper = (props) => {
   );
 };
 
-export default CurriculumPaper;
+export default EducationPaper;
