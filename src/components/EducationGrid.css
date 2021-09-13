@@ -68,7 +68,7 @@ html body * {
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 130px 0 20px;
+  margin: 130px 15px 15px 20px;
   position: relative;
 }
 /* .gridywrap .gridinfo h3:after {
@@ -84,7 +84,7 @@ html body * {
 }
 .gridywrap .gridinfo .gridmeta p {
   display: inline-block;
-  font-size: 13px;
+  font-size: 5px;
   color: #fff;
   margin-bottom: 15px;
 }
@@ -97,7 +97,7 @@ html body * {
 .gridywrap .gridinfo p.gridexerpt {
   width: 60%;
   margin: 0 auto;
-  line-height: 22px;
+  line-height: 20px;
   margin-bottom: 25px;
   color: #fff;
   transition-delay: 0.5s;

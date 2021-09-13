@@ -84,7 +84,7 @@ const PortfolioComponent = () => {
       desc: "Proyecto de Landing Page para consultora digital. ",
       tech: "#javascript #JQuery #htmlCss",
       img: "https://user-images.githubusercontent.com/69688629/132099492-0f5d016c-cb28-4dac-b406-7ace62282bcd.png",
-      link: "https://javierarancibia.github.io/coding-bros/",
+      link: "https://www.codingbrostudio.com/",
     },
     {
       name: "...actualmente programando",

@@ -5,6 +5,7 @@ import { FaAngleRight } from "react-icons/fa";
 import Monkey from "./img/monkeyastronaut.png";
 import { FcNext, FcPrevious } from "react-icons/fc";
 import ContactForm from "./ContactForm"
+import { AiOutlineHeart } from "react-icons/ai";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -64,7 +65,7 @@ const PersonalPaper = (props) => {
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
         >
-          #openforwork #contactame #loveWhatYouDo.
+          #openforwork #contactame #I<AiOutlineHeart style={{verticalAlign: 'middle', fontSize:35}} />React
         </h2>
         <Button
           onClick={handleUi}
