@@ -62,7 +62,7 @@ const PortfolioComponent = () => {
       desc: "Conversor de valores a la UF actual y viceversa, consumiendo una API publica con valor de la UF diaria",
       tech: "#ReactJS, #React-Bootstrap, #Javascript",
       link: "https://javierarancibia.github.io/react-ufcalculator/",
-      img: "https://user-images.githubusercontent.com/69688629/131714834-2ae475a4-c31d-49ba-bb93-bf6127480c09.png",
+      img: "https://user-images.githubusercontent.com/69688629/133347685-0c3feedb-0fcb-4be7-9b5e-74bffc0085a3.png",
     },
     {
       name: "Portafolio Web",
@@ -85,6 +85,20 @@ const PortfolioComponent = () => {
       tech: "#javascript #JQuery #htmlCss",
       img: "https://user-images.githubusercontent.com/69688629/132099492-0f5d016c-cb28-4dac-b406-7ace62282bcd.png",
       link: "https://www.codingbrostudio.com/",
+    },
+    {
+      name: "Ricomida",
+      desc: "Diseño UI de Landing Page para restaurante local. ",
+      tech: "#javascript #JQuery #htmlCss",
+      img: "https://media-exp1.licdn.com/dms/image/C4D2DAQHAkYC8cA83uw/profile-treasury-image-shrink_8192_8192/0/1607444909140?e=1631754000&v=beta&t=b2b0Bwpok39F2Ww5b_Zv4G4Hg3jkCwZt3DlD2FVE7d4",
+      link: "https://javierarancibia.github.io/ricomida/",
+    },
+    {
+      name: "Portafolio Web Profesional",
+      desc: "Diseño UI de Landing Page para portafolio para profesionales. ",
+      tech: "#javascript #JQuery #htmlCss",
+      img: "https://user-images.githubusercontent.com/69688629/133351446-01b8c8d8-f981-4682-bb36-f628e7db72bd.png",
+      link: "https://javierarancibia.github.io/portafolio/",
     },
     {
       name: "...actualmente programando",
