@@ -90,7 +90,7 @@ const PortfolioComponent = () => {
       name: "Ricomida",
       desc: "Diseño UI de Landing Page para restaurante local. ",
       tech: "#javascript #JQuery #htmlCss",
-      img: "https://media-exp1.licdn.com/dms/image/C4D2DAQHAkYC8cA83uw/profile-treasury-image-shrink_8192_8192/0/1607444909140?e=1631754000&v=beta&t=b2b0Bwpok39F2Ww5b_Zv4G4Hg3jkCwZt3DlD2FVE7d4",
+      img: "https://user-images.githubusercontent.com/69688629/133955018-0d35bb6c-e1a7-4e26-8c14-6adfef8db4fd.png",
       link: "https://javierarancibia.github.io/ricomida/",
     },
     {
@@ -101,9 +101,24 @@ const PortfolioComponent = () => {
       link: "https://javierarancibia.github.io/portafolio/",
     },
     {
+      name: "Juego Piedra-Papel-Tijera",
+      desc: "Juego del tradicional cachipun desarrollado en ReactJS y Bootstrap ",
+      tech: "#reactJs #bootstrap #htmlCss",
+      img: "https://user-images.githubusercontent.com/69688629/133954763-8f4c9464-6875-4144-9a49-c2f208917c4f.png",
+      link: "https://javierarancibia.github.io/RockPaperScissorsReactGame/",
+    },
+    {
+      name: "React-RubyOnRails Pokedex",
+      desc: "App de prueba con PokeApi y Ruby on Rails con React de Webpack",
+      tech: "#reactJs #bootstrap #RubyOnRails #Webpack",
+      img: "https://user-images.githubusercontent.com/69688629/137804238-f852cc07-0e97-4c50-b866-d42ff4fc54a6.png",
+      link: "https://pure-retreat-87325.herokuapp.com/",
+    },
+    {
       name: "...actualmente programando",
       desc: "...siempre programando",
       img: "https://media3.giphy.com/media/y5gCdhnsGnKRh20TnE/giphy.gif?cid=790b761107ddfd218677db6570dd5a6db0eb9bbf68d779f6&rid=giphy.gif&ct=g",
+      link: "https://github.com/javierarancibia"
     },
   ];
 

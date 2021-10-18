@@ -85,8 +85,8 @@ const PersonalPaper = (props) => {
       <Grid xs={3}>
           <img
             src={Monkey}
-            width="450"
-            style={{ marginLeft: "3rem" }}
+            width="400"
+            style={{ marginLeft: "3rem", marginTop: "2rem" }}
             alt="Spinner"
             className="monkeyAstronaut"
             data-aos="fade-left"
