@@ -16,12 +16,12 @@ const EducationGrid = () => {
   const gridInfo = [
     {
       classname: "gridy-1 gridyhe-2",
-      title: "Fullstack Bootcamp Desarrollo Web Ruby on Rails",
+      title: "Fullstack Web Development with Ruby on Rails Bootcamp",
       subtitle: "Academia Desafio Latam 2020",
       link: "https://desafiosdev.s3.amazonaws.com/uploads/certification/image/11157/aprobacion-final-classroom-proyecto-full-stack-rails-g35-7839.png",
       diploma: true,
       img: [Desafio], 
-      desc: 'Bootcamp de 4 meses enfocado a la especializacion en desarrollo de aplicaciones con Ruby on Rails'
+      desc: '4 Months Bootcamp of Full Stack Web Development with Ruby on Rails'
     },
     {
       classname: "gridy-1 gridyhe-2",
@@ -30,7 +30,7 @@ const EducationGrid = () => {
       link: "https://www.coderhouse.cl/certificados/60625f008ef20d0096645efb",
       diploma: true,
       img: [Coderhouse],
-      desc: 'Curso de 2 meses para profundizar mis conocimientos en Javascript y lograr desarrollar aplicaciones dinamicas'
+      desc: 'Two months intensive course of Web App Development with Javascript'
       
     },
     {
@@ -40,31 +40,32 @@ const EducationGrid = () => {
       link: "https://www.coderhouse.cl/certificados/60c6388c364906033e3591bb",
       diploma: true,
       img: [Coderhouse],
-      desc: 'Curso de 2 meses de introduccion y desarrollo de aplicaciones con React JS'
+      desc: 'Two months intensive course of Web App Development with React JS'
     },
     {
       classname: "gridy-1 gridyhe-2",
-      title: "React - The Complete Guide",
-      subtitle: 'Udemy',
-      diploma: false,
-      img: [Udemy],
-      desc: 'Profundizacion en el desarrollo de apps con React Js, en topicos como context, testing, redux y server side rendering'
+      title: "React Native with Expo",
+      subtitle: "Coderhouse 2021",
+      link: "https://www.coderhouse.cl/certificados/61de0096f53da30027d5212b?lang=en",
+      diploma: true,
+      img: [Coderhouse],
+      desc: 'Two months intensive course of Mobile App Development with React Native and Expo'
     },
     {
       classname: "gridy-1 gridyhe-2",
-      title: "Arquitectura",
-      subtitle: "Universidad de Viña del Mar",
+      title: "Architecture",
+      subtitle: "University of Viña del Mar",
       diploma: false,
       img: [uvm],
-      desc: 'Titulo de Pregrado en Arquitectura '
+      desc: 'Bachelor in Architecture'
     },
     {
       classname: "gridy-1 gridyhe-2",
-      title: "Idiomas",
-      subtitle: "Ingles IELTS 6.5",
+      title: "Languages",
+      subtitle: "Advanced English",
       diploma: false,
       img: ielts,
-      desc: 'Resultado de 6.5 en prueba IELTS realizada en la Universidad de Liverpool el año 2005'
+      desc: '6.5 IELTS scored in University of Liverpool 2005'
     
     },
   ];

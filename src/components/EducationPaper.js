@@ -49,7 +49,7 @@ const EducationPaper = (props) => {
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
         >
-          educacion<span className="blink">_</span>
+          education<span className="blink">_</span>
         </h1>
         <h2
           style={{
@@ -64,7 +64,7 @@ const EducationPaper = (props) => {
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
         >
-          #coderhouse #desafioLatam #arquitectura.
+          #coderhouse #desafioLatam #architecture.
         </h2>
         <Button
           onClick={handleUi}
@@ -89,114 +89,6 @@ const EducationPaper = (props) => {
           <FcNext style={{ fontSize: "6rem" }} />
         </Button>
       </Grid>
-      {/* <Grid container xs={6}> */}
-        {/* <Paper
-          elevation={0}
-          data-aos="fade-right"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1500"
-          data-aos-easing="ease-in-out"
-        >
-          <ul style={{ paddingLeft: 0 }}>
-            <Link
-              style={{
-                display: "flex",
-                alignItems: "center",
-                cursor: "pointer",
-                fontFamily: "ProximaNova",
-                color: "black",
-                fontSize: 30,
-              }}
-              onClick={() => setItem(0)}
-            >
-              <b>React - The Complete Guide_</b> Udemy
-            </Link>
-            <Link
-              style={{
-                display: "flex",
-                alignItems: "center",
-                marginTop: "1.5rem",
-                cursor: "pointer",
-                fontFamily: "ProximaNova",
-                color: "black",
-                fontSize: 30,
-              }}
-              onClick={() => setItem(1)}
-            >
-              <b>React JS_</b> Coderhouse
-              <FaAngleRight
-                style={{ fontSize: 25, color: "black", marginLeft: "1rem" }}
-              />
-            </Link>
-            <Link
-              style={{
-                display: "flex",
-                alignItems: "center",
-                marginTop: "1.5rem",
-                cursor: "pointer",
-                fontFamily: "ProximaNova",
-                color: "black",
-                fontSize: 30,
-              }}
-              onClick={() => setItem(2)}
-            >
-              <b>Javascript_</b> Coderhouse
-              <FaAngleRight
-                style={{ fontSize: 25, color: "black", marginLeft: "1rem" }}
-              />
-            </Link>
-            <Link
-              style={{
-                display: "flex",
-                alignItems: "center",
-                marginTop: "1.5rem",
-                cursor: "pointer",
-                fontFamily: "ProximaNova",
-                color: "black",
-                fontSize: 30,
-              }}
-              onClick={() => setItem(3)}
-            >
-              <b>Fullstack Bootcamp RoR_</b> Desafio Latam
-              <FaAngleRight
-                style={{ fontSize: 25, color: "black", marginLeft: "1rem" }}
-              />
-            </Link>
-            <Link
-              style={{
-                display: "flex",
-                alignItems: "center",
-                marginTop: "1.5rem",
-                cursor: "pointer",
-                fontFamily: "ProximaNova",
-                color: "black",
-                fontSize: 30,
-              }}
-              onClick={() => setItem(4)}
-            >
-              <b>Arquitectura_</b> UVM
-              <FaAngleRight
-                style={{ fontSize: 25, color: "black", marginLeft: "1rem" }}
-              />
-            </Link>
-          </ul> */}
-        {/* </Paper> */}
-      {/* </Grid> */}
-      {/* <Grid xs={3}>
-          <img
-            src={Monkey}
-            width="450"
-            style={{ marginLeft: "3rem" }}
-            alt="Spinner"
-            className="monkeyAstronaut"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-delay="50"
-            data-aos-duration="1500"
-            data-aos-easing="ease-in-out"
-          />
-      </Grid> */}
       <EducationGrid />
     </div>
   );

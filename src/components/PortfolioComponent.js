@@ -110,9 +110,16 @@ const PortfolioComponent = () => {
     {
       name: "React-RubyOnRails Pokedex",
       desc: "App de prueba con PokeApi y Ruby on Rails con React de Webpack",
-      tech: "#reactJs #bootstrap #RubyOnRails #Webpack",
+      tech: "#ReactJs #bootstrap #RubyOnRails",
       img: "https://user-images.githubusercontent.com/69688629/137804238-f852cc07-0e97-4c50-b866-d42ff4fc54a6.png",
       link: "https://pure-retreat-87325.herokuapp.com/",
+    },
+    {
+      name: "RandomRecipes App",
+      desc: "App de recetas con React Native - Expo y Edamam API",
+      tech: "#reactNative #CSS #Javascript #Expo",
+      img: "https://user-images.githubusercontent.com/69688629/151179890-9f9d7454-5c29-4fa6-b6b3-35b4a0b4a251.png",
+      link: "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40javathejat/food-app-6c76468fdf8f4428a529a0e166c34d9a-signed.apk",
     },
     {
       name: "...actualmente programando",
@@ -126,7 +133,7 @@ const PortfolioComponent = () => {
     <Grid
       container
       spacing={9}
-      style={{ width: "75rem", marginTop: 40 }}
+      style={{ width: "80rem", marginTop: 40 }}
       data-aos="fade-down"
       data-aos-offset="50"
       data-aos-delay="50"
@@ -140,7 +147,7 @@ const PortfolioComponent = () => {
               <CardMedia
                 component="img"
                 alt={eachItem.name}
-                height="200"
+                height="350"
                 image={eachItem.img}
                 title={eachItem.name}
               />
