@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Button, Grid, Link } from "@material-ui/core";
 import { FcNext } from "react-icons/fc";
 import PortfolioComponent from "./PortfolioComponent";
+import DesignComponent from "./designComponent";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,9 +18,17 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const PortfolioPaper = (props) => {
+  const [ui, setUi] = useState("1");
   const handleUi = (e) => {
     e.preventDefault();
+    setUi(e.currentTarget.value);
+    console.log(ui);
+  };
+
+  const nextPage = (e) => {
+    e.preventDefault();
     props.onGetUi(e.currentTarget.value);
+    console.log(ui);
   };
 
   const classes = useStyles();
@@ -43,22 +52,40 @@ const PortfolioPaper = (props) => {
         >
           workPortfolio<span className="blink">_</span>
         </h1>
-        <h2
-          style={{
-            fontSize: 40,
-            color: "grey",
-            fontFamily: "ProximaNova",
-            marginLeft: "13rem",
-          }}
-          data-aos="fade-down"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1500"
-          data-aos-easing="ease-in-out"
-        >
-          #ReactJS #Javascript #RubyOnRails
-        </h2>
-        <Button onClick={handleUi} value="3">
+        {ui === "1" ? (
+          <h2
+            style={{
+              fontSize: 40,
+              color: "grey",
+              fontFamily: "ProximaNova",
+              marginLeft: "13rem",
+            }}
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+          >
+            #ReactJS #Javascript #RubyOnRails
+          </h2>
+        ) : (
+          <h2
+            style={{
+              fontSize: 40,
+              color: "grey",
+              fontFamily: "ProximaNova",
+              marginLeft: "13rem",
+            }}
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+          >
+            #3DsMax #3dDesign #RubyOnRails
+          </h2>
+        )}
+        <Button onClick={nextPage} value="3">
           <FcNext
             style={{ fontSize: "6rem" }}
             data-aos="fade-left"
@@ -70,7 +97,33 @@ const PortfolioPaper = (props) => {
         </Button>
       </Grid>
       <Grid xs={5}>
-        <PortfolioComponent />
+        <Button
+          style={{
+            marginRight: "1rem",
+            color: "black",
+            fontFamily: "ProximaNova",
+            fontSize: "23px",
+          }}
+          onClick={handleUi}
+          value="1"
+        >
+          Tech
+        </Button>
+
+        <Button
+          style={{
+            marginRight: "1rem",
+            color: "black",
+            fontFamily: "ProximaNova",
+            fontSize: "23px",
+          }}
+          onClick={handleUi}
+          value="2"
+        >
+          Design
+        </Button>
+        {ui === "1" && <PortfolioComponent />}
+        {ui === "2" && <DesignComponent />}
       </Grid>
     </div>
   );

@@ -2,11 +2,8 @@ import React from "react";
 import "./EducationGrid.css";
 import Desafio from "./img/desafio.png";
 import Coderhouse from "./img/coderhouse.png";
-import Udemy from "./img/udemy.png";
 import ielts from "./img/ielts.png";
 import uvm from "./img/uvm.png";
-import italy from "./img/italy.png";
-import chile from "./img/chile.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

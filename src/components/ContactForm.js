@@ -22,7 +22,7 @@ const ContactForm = () => {
 
             <input
               type="text"
-              placeholder="nombre"
+              placeholder="name"
               name="name"
               id="name_input"
               required
@@ -32,7 +32,7 @@ const ContactForm = () => {
             <label for="email"></label>
             <input
               type="email"
-              placeholder="correo"
+              placeholder="email"
               name="email"
               id="email_input"
               required
@@ -47,17 +47,17 @@ const ContactForm = () => {
               required
             >
               <option disabled hidden selected>
-                asunto
+                Why you need me ...
               </option>
-              <option>Quiero contactarte para un trabajo...</option>
-              <option>Necesito tus servicios</option>
+              <option>I would like to talk to you about a job opening...</option>
+              <option>I need your freelance service</option>
             </select>
           </div>
           <div className="message">
             <label for="message"></label>
             <textarea
               name="message"
-              placeholder="mensaje"
+              placeholder="message"
               id="message_input"
               cols="30"
               rows="5"

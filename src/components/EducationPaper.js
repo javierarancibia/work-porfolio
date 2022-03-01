@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Paper, Grid, Link, Button } from "@material-ui/core";
-import { FaAngleRight } from "react-icons/fa";
+import { Grid, Button } from "@material-ui/core";
 import Monkey from "./img/monkeyastronaut.png";
 import { FcNext, FcPrevious } from "react-icons/fc";
 import EducationGrid from "./EducationGrid"

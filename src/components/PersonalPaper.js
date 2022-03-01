@@ -50,7 +50,7 @@ const PersonalPaper = (props) => {
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
         >
-          contacto<span className="blink">_</span>
+          contact<span className="blink">_</span>
         </h1>
         <h2
           style={{
@@ -65,7 +65,7 @@ const PersonalPaper = (props) => {
           data-aos-duration="1500"
           data-aos-easing="ease-in-out"
         >
-          #openforwork #contactame #I<AiOutlineHeart style={{verticalAlign: 'middle', fontSize:35}} />React
+          #openforwork #contactMe #I<AiOutlineHeart style={{verticalAlign: 'middle', fontSize:35}} />React
         </h2>
         <Button
           onClick={handleUi}

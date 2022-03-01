@@ -25,7 +25,7 @@ const AboutMe = (props) => {
           data-aos-easing="ease-in-out"
           style={{backgroundColor: 'DodgerBlue', padding:0, marginRight:25}}
         >
-          desarrollador web<span className="blink">_</span>
+          web developer<span className="blink">_</span>
         </h1>
         <h2
           className="homesubtitle"
@@ -40,7 +40,7 @@ const AboutMe = (props) => {
             // boxShadow: "0px 15px 10px -15px  gray",
           }}
         >
-          FrontEnd - BackEnd - Diseño{" "}
+          FrontEnd - Web Designer{" "}
         </h2>
 
         <Grid xs={5}>

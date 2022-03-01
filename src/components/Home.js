@@ -89,7 +89,7 @@ const Home = (props) => {
               onClick={handleUi}
               value="3"
             >
-              educacion
+              education
             </Button>
             <span>|</span>
             <Button
@@ -101,7 +101,7 @@ const Home = (props) => {
               onClick={handleUi}
               value="4"
             >
-              Contacto
+              Contact
             </Button>
             <Button style={{ marginLeft: "1rem" }} onClick={handleUi} value="3">
               <FaLightbulb style={{ fontSize: 20 }} />
