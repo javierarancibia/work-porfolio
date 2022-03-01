@@ -109,14 +109,14 @@ const PortfolioComponent = () => {
     },
     {
       name: "React-RubyOnRails Pokedex",
-      desc: "App de prueba con PokeApi y Ruby on Rails con React de Webpack",
+      desc: "Testing App with PokeApi and Ruby on Rails with React de Webpack",
       tech: "#ReactJs #bootstrap #RubyOnRails",
       img: "https://user-images.githubusercontent.com/69688629/137804238-f852cc07-0e97-4c50-b866-d42ff4fc54a6.png",
       link: "https://pure-retreat-87325.herokuapp.com/",
     },
     {
-      name: "RandomRecipes App",
-      desc: "App de recetas con React Native - Expo y Edamam API",
+      name: "RandomRecipes Mobile App",
+      desc: "Mobile app created with React Native, Expo and Edamam API",
       tech: "#reactNative #CSS #Javascript #Expo",
       img: "https://user-images.githubusercontent.com/69688629/151179890-9f9d7454-5c29-4fa6-b6b3-35b4a0b4a251.png",
       link: "https://user-images.githubusercontent.com/69688629/151179890-9f9d7454-5c29-4fa6-b6b3-35b4a0b4a251.png",
