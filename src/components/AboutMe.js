@@ -51,8 +51,7 @@ const AboutMe = (props) => {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
           >
-            Soy un Desarrollador Full Stack con manejo en lenguajes de Front end
-            (Javascript y React JS)
+            Web Developer / Designer currently in Rotterdam, NL
           </p>
           <p
             style={{ marginTop: 50, fontSize: 18 }}
@@ -61,13 +60,13 @@ const AboutMe = (props) => {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
           >
-            Desarrollador Full Stack con manejo en lenguajes de Front end
-            (Javascript y React JS) y de Backend (Ruby On Rails). Al mismo
-            tiempo, tengo experiencia trabajando en programas de diseño
-            arquitectónico y de interiores. Me interesa mucho participar en
-            transformaciones digitales de organizaciones, y ser parte de una
-            célula Agil como desarrollador full stack. Me apasiona el mundo
-            digital y me encanta conocer nuevas tecnologías.
+            Junior Web Developer with a multi-disciplinary and technical
+            background, encompassing, coding, web development, 3D
+            and architectural design. I have a keen interest in new
+            technologies along with good visual design and user
+            experience. Adept at contributing to highly collaborative work
+            environment, finding solutions and determining customer
+            satisfaction
           </p>
         </Grid>
         <Grid xs={5}>
