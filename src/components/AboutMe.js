@@ -29,7 +29,6 @@ const AboutMe = (props) => {
         </h1>
         <h2
           className="homesubtitle"
-          style={{ paddingBottom: 0 }}
           data-aos="fade-down"
           data-aos-delay="50"
           data-aos-duration="1500"

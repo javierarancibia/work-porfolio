@@ -82,7 +82,7 @@ const PortfolioPaper = (props) => {
             data-aos-duration="1500"
             data-aos-easing="ease-in-out"
           >
-            #3DsMax #3dDesign #RubyOnRails
+            #3DsMax #3dDesign #DigitalArt
           </h2>
         )}
         <Button onClick={nextPage} value="3">
