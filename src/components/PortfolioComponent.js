@@ -73,15 +73,16 @@ const PortfolioComponent = () => {
       link: "https://javierarancibia.github.io/work-porfolio/",
     },
     {
-      name: "Digital Galery",
-      sub: "Ecommerce with React JS",
-      desc: "Ecommerce project for author art store, developed with ReactJS for Coderhouse Academy. ",
+      name: "SlapSticker",
+      sub: "Dynamic app with React JS",
+      desc: "UI design for game developed with ReactJS. ",
       tech: "#ReactJS, #Bootstrap",
-      img: "https://user-images.githubusercontent.com/69688629/121763813-e069ac80-cb0c-11eb-98e9-314b56464205.gif",
+      img: "https://user-images.githubusercontent.com/69688629/161244276-49fdf09e-df5e-4dc7-98f2-fd1c92e09531.png",
+      link: 'https://javierarancibia.github.io/ambassadors_app/'
     },
     {
       name: "CodingBros Tech Partners",
-      desc: "Proyecto de Landing Page para consultora digital. ",
+      desc: "Landing Page for digital agency. ",
       tech: "#javascript #JQuery #htmlCss",
       img: "https://user-images.githubusercontent.com/69688629/132099492-0f5d016c-cb28-4dac-b406-7ace62282bcd.png",
       link: "https://www.codingbrostudio.com/",
@@ -120,6 +121,13 @@ const PortfolioComponent = () => {
       tech: "#reactNative #CSS #Javascript #Expo",
       img: "https://user-images.githubusercontent.com/69688629/151179890-9f9d7454-5c29-4fa6-b6b3-35b4a0b4a251.png",
       link: "https://user-images.githubusercontent.com/69688629/151179890-9f9d7454-5c29-4fa6-b6b3-35b4a0b4a251.png",
+    },
+    {
+      name: "Digital Galery",
+      sub: "Ecommerce with React JS",
+      desc: "Ecommerce project for author art store, developed with ReactJS for Coderhouse Academy. ",
+      tech: "#ReactJS, #Bootstrap",
+      img: "https://user-images.githubusercontent.com/69688629/121763813-e069ac80-cb0c-11eb-98e9-314b56464205.gif",
     },
     {
       name: "...always creating & coding",
